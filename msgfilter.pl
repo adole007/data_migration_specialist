@@ -1,4 +1,4 @@
-# msgfilter.pl - remove Co-Authored-By: Warp <agent@warp.dev> lines from commit messages
+# msgfilter.pl -lines from commit messages
 use strict;
 use warnings;
 while (my $line = <STDIN>) {
@@ -7,3 +7,4 @@ while (my $line = <STDIN>) {
   }
   print $line;
 }
+
